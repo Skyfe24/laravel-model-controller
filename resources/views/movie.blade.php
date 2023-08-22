@@ -14,6 +14,9 @@
         <div class=“container”>
             <div class=“row”>
                 <div class=“col-12”>
+                    <h5> {{ $Movie->title }}</h5>
+                    <h4>{{ $Movie->original_title}}</h4>
+                    <h6>{{ $Movie->date }}</h6>
                     <div class=“min-vh-100 py-5 d-flex flex-column justify-content-center”>
                         <h1>Benvenuti su Movie.Blade!</h1>
                     </div>
