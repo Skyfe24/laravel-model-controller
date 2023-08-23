@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -7,10 +7,10 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
+     Fonts 
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Styles -->
+     Styles 
     @vite('resources/js/app.js')
 
 </head>
@@ -32,4 +32,12 @@
 
 </body>
 
-</html>
+</html> --  forse non è necessaria questa parte.-->
+
+@extends('layouts.main')
+
+@section('title', 'Home')
+
+@section('main')
+    <h1>Ecco tutti i film!</h1>
+@endsection
